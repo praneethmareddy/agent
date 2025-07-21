@@ -1,0 +1,3 @@
+@GlobalTemplate
+common_param1, common_param2
+999, 888

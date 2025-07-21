@@ -1,0 +1,1 @@
+2025-05-11 12:05:00 [INFO] Base station configured with parameters y1=40, y2=50.

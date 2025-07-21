@@ -1,0 +1,8 @@
+{
+    "graphs": {
+      "default": "graph:create_graph"
+    },
+    "dependencies": ["."],
+    "tracing": false
+  }
+  
