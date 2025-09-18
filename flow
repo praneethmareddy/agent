@@ -1,0 +1,21 @@
+Current Issue
+In telecom network operations, the Customer Information Questionnaire (CIQ) is the blueprint for site rollout and configuration in telecom network operations. However, the process of transforming CIQs into NE Grow/Cell Grow templates involves several challenges.
+
+
+Our Proposal: We develop an AI Agent-based System designed to efficiently convert raw Customer Information Questionnaires (CIQs) into deployment-ready NE/Cell Grow templates, ensuring speed, accuracy, and explainability throughout the process. Additionally, the system enhances global operations support by enabling seamless multilingual communication and cross-regional collaboration.
+Key Components of Hybrid AI stack: 
+Data Cleaner Agent 
+Standardizes raw CIQ formats into a Samsung Standard CIQ.
+Normalizes naming, units, and missing fields using rule-based mappings + lookup retrieval.
+Semantic Mapper Agent 
+Uses domain-tuned embeddings to align CIQ fields to NE/Cell Grow template fields.                
+Handles one-to-many and many-to-one mappings with semantic similarity search.
+Validator Agent
+Checks compliance against domain constraints (PCI uniqueness, EARFCN ranges, duplicate checks, etc.).
+Suggests corrections where violations occur
+Explainer Agent
+Provides human-like explanations for every mapping decision.
+Allows engineers to “chat with the CIQ” and ask why certain mappings were made.
+Multilingual Operations Support Agent
+Uses multilingual embeddings to translate CIQ-related content into target languages and vice versa, ensuring seamless cross-linguistic communication.
+Handles complex mappings between languages with semantic similarity search for accurate and context-aware translations.
